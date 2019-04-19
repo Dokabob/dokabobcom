@@ -1,4 +1,0 @@
----
-deployment:
-      tasks:
-             - /bin/cp index.html /home/dokabobc/public_html/
