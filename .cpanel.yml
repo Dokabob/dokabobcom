@@ -1,5 +1,4 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/dokabob/public_html
-        - /bin/cp index.html $DEPLOYPATH
+             - /bin/cp index.html /home/dokabobc/public_html/
