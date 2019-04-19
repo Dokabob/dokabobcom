@@ -1,11 +1,10 @@
 ---
 deployment:
-    tasks:
-        - export GITPATH=/home/dokabobc/git
-        - export DEPLOYPATH=/home/dokabobc/public_html/
-        - /bin/cp $GITPATH/index.html $DEPLOYPATH
-        - /bin/cp $GITPATH/translations.html $DEPLOYPATH
-        - /bin/cp $GITPATH/about.html $DEPLOYPATH
-        - /bin/cp -R $GITPATH/css $DEPLOYPATH
-        - /bin/cp -R $GITPATH/img $DEPLOYPATH
-        - /bin/cp -R $GITPATH/script $DEPLOYPATH
+      tasks:
+        - export DEPLOYPATH=/home/dokabob/www/
+        - /bin/cp index.html $DEPLOYPATH
+        - /bin/cp -r script $DEPLOYPATH
+        - /bin cp -r img $DEPLOYPATH 
+        - /bin cp -r css/<sub_folder>/* $DEPLOYPATH
+        - /bin/cp about.html $DEPLOYPATH
+        - /bin/cp translations.html
