@@ -1,10 +1,5 @@
 ---
 deployment:
       tasks:
-        - export DEPLOYPATH=/home/dokabob/www/
+        - export DEPLOYPATH=/home/dokabob/public_html
         - /bin/cp index.html $DEPLOYPATH
-        - /bin/cp -r script $DEPLOYPATH
-        - /bin cp -r img $DEPLOYPATH 
-        - /bin cp -r css/<sub_folder>/* $DEPLOYPATH
-        - /bin/cp about.html $DEPLOYPATH
-        - /bin/cp translations.html
