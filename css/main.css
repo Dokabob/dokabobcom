@@ -1,0 +1,20 @@
+body {
+    color: #00aab3;
+    background-color: #112b3f;
+    border: 1px solid black;
+}
+
+#menu {
+    
+}
+
+.menuItem:hover,
+.menuItem:focus,
+.menuItem:active {
+    color:#b26818;
+    text-decoration: none;
+}
+
+footer {
+    
+}
